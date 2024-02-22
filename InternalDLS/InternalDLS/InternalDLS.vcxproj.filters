@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\ClassTypes">
+      <UniqueIdentifier>{4ed0d100-c33a-4ecc-a81c-6226d9b8775c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RelationTypes">
+      <UniqueIdentifier>{104df7e5-1ec2-4d60-9c55-b143cec460f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InternalDLS.cpp">
@@ -27,6 +33,15 @@
     <ClCompile Include="Diagram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Class_Type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Relation_Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">
@@ -37,6 +52,15 @@
     </ClInclude>
     <ClInclude Include="Diagram.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Class_Type.h">
+      <Filter>Header Files\ClassTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Relation_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inheritance.h">
+      <Filter>Header Files\RelationTypes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

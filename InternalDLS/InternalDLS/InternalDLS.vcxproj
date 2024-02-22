@@ -127,14 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Class_Type.cpp" />
     <ClCompile Include="Diagram.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
     <ClCompile Include="InternalDLS.cpp" />
+    <ClCompile Include="Relation_Types.cpp" />
     <ClCompile Include="Type.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class_Type.h" />
     <ClInclude Include="Diagram.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Inheritance.h" />
+    <ClInclude Include="Relation_Types.h" />
     <ClInclude Include="Type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
